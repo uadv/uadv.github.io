@@ -14,11 +14,27 @@ body{
     position: fixed;
 }
 
+#icon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: -5px;
+    right: -50px;
+
+}
+
 .welcome_box{
     background-color: rgb(65, 65, 65);
-    padding: 1px 0px;
-    margin: 0px 0px;
+    padding: 5px 0px;
+
     border-radius: 5px;
+}
+
+.filler{
+
+    padding: 25px;
+
+ 
 }
 #welcome{
     text-align: center;
