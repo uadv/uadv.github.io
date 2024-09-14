@@ -1,0 +1,60 @@
+* {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 22px;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+.navbar{
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+}
+
+.welcome_box{
+    background-color: rgb(65, 65, 65);
+    padding: 1px 0px;
+    margin: 0px 0px;
+    border-radius: 5px;
+}
+#welcome{
+    text-align: center;
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar img{
+    width: 20px;
+    height: 20px;
+
+}
+
+form{
+    margin-top: 20px;
+}
+
+
+newblock {
+    border: 1px solid red;
+    display: block;
+    text-align: center;
+    margin: 10px;
+
+}
+block{
+    display: inline-block;
+    border: 1px solid blue;
+    text-align: center;
+    margin: 0 100px;
+    padding: 50px;
+}
